@@ -94,7 +94,7 @@ class Holder(models.Model):
 
     registered_in = models.DateField("Cadastrado em", default=date.today)
     updated_in = models.DateField("Atualizado em", default=date.today)
-    #updated_by = models.ForeignKey(User, on_delete=models.DO_NOTHING, verbose_name='Atualizado por')
+    #updated_by = models.ForeignKey(User, on_delete=models.DO_NOTHING, verbose_name='Atualizado por') 
 
     def clean(self):
         super().clean()
