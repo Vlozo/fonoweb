@@ -1,7 +1,7 @@
 from django.test import TestCase
 from ..models import *
 
-# Path-Handler for unit tests: fonoweb.core.tests.test_models.InsertTestCase
+# Path-Handler for unit tests: fonoweb.core.tests.test_models.InsertTestCase 
 
 today = date(2024,1,12) # Use your actually date to validate tests with this parameter
 
